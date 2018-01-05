@@ -1,0 +1,22 @@
+/*Chicos este sería el archivo css que debríamos usar nosotros.*/
+body{
+    background: transparent url(../img/about.jpg) no-repeat center/cover;
+}
+
+#contentParent {
+    background-color: rgba(51, 102, 204, 0.85);
+}
+
+#chat-column-holder {
+    background-color: white;
+    max-width: 35rem;
+    min-width: 11rem;
+    padding-right: 2rem;
+    padding-left: 3rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.from-watson.latest.top p:before {
+    color: red;
+    /*It´s not workin correctly because the problem is with this image /img/marker_image.png*/
+}

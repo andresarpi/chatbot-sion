@@ -10,7 +10,8 @@
   var debugging_param = location.search.split('debugging=')[1];
   if (debugging_param === "true") {
     var payloadcolumn = document.getElementById("payload-column");
-    payloadcolumn.style.display = "none";
+    var toggleButton = document.getElementById("view-change-button");
+    toggleButton.style.display = payloadcolumn.style.display = "none";
   }
   
 })();
