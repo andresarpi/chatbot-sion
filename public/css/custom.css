@@ -4,7 +4,7 @@ body{
 }
 
 #contentParent {
-    background-color: rgba(51, 102, 204, 0.85);
+    background-color: rgba(33, 33, 33, 0.8);
 }
 
 #chat-column-holder {
@@ -17,6 +17,5 @@ body{
 }
 
 .from-watson.latest.top p:before {
-    color: red;
-    /*It´s not workin correctly because the problem is with this image /img/marker_image.png*/
+    color: #d70c7a;
 }
